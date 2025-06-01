@@ -169,7 +169,11 @@
     font-weight: 400;
     color: var(--primary-color);
   }
-  
+  .logo img {
+    width: 50px;
+    height: auto;
+    margin-right: 10px;
+  }
   .desktop-nav {
     display: none;
   }
