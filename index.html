@@ -1,0 +1,374 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Creative Portfolio | Graphic Design Showcase</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="cursor"></div>
+  
+  <header>
+    <div class="logo">
+      <a href="#hero">ESKAY<span>KREATIONS</span></a>
+    </div>
+    <nav class="desktop-nav">
+      <ul>
+        <li><a href="#hero" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#work" class="nav-link">Work</a></li>
+        <li><a href="#services" class="nav-link">Services</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+    <div class="menu-toggle">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+  
+  <nav class="mobile-nav">
+    <ul>
+      <li><a href="#hero" class="nav-link">Home</a></li>
+      <li><a href="#about" class="nav-link">About</a></li>
+      <li><a href="#work" class="nav-link">Work</a></li>
+      <li><a href="#services" class="nav-link">Services</a></li>
+      <li><a href="#contact" class="nav-link">Contact</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="hero-text">
+        <h1>Creative <span>Design</span> Portfolio</h1>
+        <p>Creating Visual Magic.</p>
+        <a href="#work" class="btn">View My Work</a>
+      </div>
+      <div class="hero-image">
+        <div class="shape-1"></div>
+        <div class="shape-2"></div>
+        <img src="https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTV8fGdyYXBoaWMlMjBkZXNpZ25lcnxlbnwwfHx8fDE3MTQwNTY1NTN8MA&ixlib=rb-4.0.3&q=80&w=400" alt="Designer's Workspace">
+      </div>
+      <div class="scroll-indicator">
+        <div class="mouse">
+          <div class="wheel"></div>
+        </div>
+        <div class="arrow">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="section-header">
+        <span class="subtitle">About Me</span>
+        <h2>Who I Am</h2>
+      </div>
+      <div class="about-content">
+        <div class="about-image">
+         <img src="images/WEBPAGE PIC.png" alt="designer image">
+          <div class="experience-badge">
+            <span class="number">5+</span>
+            <span class="text">Years<br>Experience</span>
+          </div>
+        </div>
+        <div class="about-text">
+          <p>Hello! I'm a passionate graphic designer with over 5 years of experience creating impactful visual solutions. My approach combines creativity with strategic thinking to deliver designs that not only look beautiful but also effectively communicate your message.</p>
+          <p>I specialize in branding, print design, digital media, and illustration. Each project is an opportunity to create something unique that resonates with your audience and helps you stand out.</p>
+          <div class="skills">
+            <div class="skill">
+              <span class="skill-name">Branding</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 95%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">UI/UX Design</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 88%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">Illustration</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 80%;"></div>
+              </div>
+            </div>
+            <div class="skill">
+              <span class="skill-name">Motion Graphics</span>
+              <div class="skill-bar">
+                <div class="skill-level" style="width: 75%;"></div>
+              </div>
+            </div>
+          </div>
+          <a href="#contact" class="btn">Let's Connect</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="work" class="work">
+      <div class="section-header">
+        <span class="subtitle">Portfolio</span>
+        <h2>Featured Work</h2>
+      </div>
+      <div class="filter-buttons">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="branding">Branding</button>
+        <button class="filter-btn" data-filter="print">Print</button>
+        <button class="filter-btn" data-filter="digital">Digital</button>
+        <button class="filter-btn" data-filter="illustration">Illustration</button>
+      </div>
+      <div class="portfolio-grid">
+        <div class="portfolio-item branding" data-category="branding">
+          <img src="https://images.unsplash.com/photo-1547658719-da2b51169166?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8OHx8YnJhbmRpbmd8ZW58MHx8fHwxNzE0MDU2NTUzfDA&ixlib=rb-4.0.3&q=80&w=400" alt="Brand Identity Design">
+          <div class="overlay">
+            <h3>Echo Brand Identity</h3>
+            <p>Branding</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item print" data-category="print">
+          <img src="https://images.unsplash.com/photo-1586902197503-e71026292412?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8cHJpbnQlMjBkZXNpZ258ZW58MHx8fHwxNzE0MDU2NTUzfDA&ixlib=rb-4.0.3&q=80&w=400" alt="Print Design">
+          <div class="overlay">
+            <h3>Horizon Magazine</h3>
+            <p>Print Design</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item digital" data-category="digital">
+          <img src="https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTB8fHVpJTIwZGVzaWdufGVufDB8fHx8MTcxNDA1NjU1M3ww&ixlib=rb-4.0.3&q=80&w=400" alt="Digital Design">
+          <div class="overlay">
+            <h3>Nova App UI</h3>
+            <p>Digital Design</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item illustration" data-category="illustration">
+          <img src="https://images.unsplash.com/photo-1618401471353-b98afee0b2eb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MXx8aWxsdXN0cmF0aW9uJTIwYXJ0fGVufDB8fHx8MTcxNDA1NjU1M3ww&ixlib=rb-4.0.3&q=80&w=400" alt="Illustration">
+          <div class="overlay">
+            <h3>Dreamscape Series</h3>
+            <p>Illustration</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item branding" data-category="branding">
+          <img src="https://images.unsplash.com/photo-1600775508114-5c30cf911a40?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8Nnx8YnJhbmRpbmclMjBkZXNpZ258ZW58MHx8fHwxNzE0MDU2NTUzfDA&ixlib=rb-4.0.3&q=80&w=400" alt="Brand Identity">
+          <div class="overlay">
+            <h3>Pulse Restaurant Rebrand</h3>
+            <p>Branding</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+        <div class="portfolio-item digital" data-category="digital">
+          <img src="https://images.unsplash.com/photo-1512758017271-d7b84c2113f1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wxMjA3fDB8MXxzZWFyY2h8MTN8fGRpZ2l0YWwlMjBhcnR8ZW58MHx8fHwxNzE0MDU2NTUzfDA&ixlib=rb-4.0.3&q=80&w=400" alt="Digital Art">
+          <div class="overlay">
+            <h3>Cosmos Social Media Campaign</h3>
+            <p>Digital Design</p>
+            <div class="portfolio-links">
+              <a href="#" class="view-project">View Project</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="services">
+      <div class="section-header">
+        <span class="subtitle">Services</span>
+        <h2>What I Offer</h2>
+      </div>
+      <div class="services-grid">
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M19.892 3.608A10.005 10.005 0 0 1 22 10c0 5.523-4.477 10-10 10S2 15.523 2 10 6.477 0 12 0c2.4 0 4.6.847 6.331 2.257L13.6 6.998l6.392.986-.478-5.725-2.788 2.465A9.954 9.954 0 0 0 12 2a8 8 0 1 0 0 16 8 8 0 0 0 7.892-6.608z"/>
+            </svg>
+          </div>
+          <h3>Brand Identity</h3>
+          <p>Creating distinctive brand identities that capture your essence and resonate with your audience.</p>
+          <ul>
+            <li>Logo Design</li>
+            <li>Brand Guidelines</li>
+            <li>Visual Identity Systems</li>
+            <li>Brand Strategy</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M4 5v14h16V5H4zM3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm11.793 6.793l-2.45 2.45-1.414-1.414-1.415 1.414 2.829 2.828 3.864-3.864-1.414-1.414z"/>
+            </svg>
+          </div>
+          <h3>Print Design</h3>
+          <p>Crafting compelling print materials that make a tangible impact and leave a lasting impression.</p>
+          <ul>
+            <li>Brochures & Catalogs</li>
+            <li>Business Cards</li>
+            <li>Packaging Design</li>
+            <li>Publication Design</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M12 22C6.477 22 2 17.523 2 12S6.477 2 12 2s10 4.477 10 10-4.477 10-10 10zm-2.29-2.333A17.9 17.9 0 0 1 8.027 13H4.062a8.008 8.008 0 0 0 5.648 6.667zM10.03 13c.151 2.439.848 4.73 1.97 6.752A15.905 15.905 0 0 0 13.97 13h-3.94zm9.908 0h-3.965a17.9 17.9 0 0 1-1.683 6.667A8.008 8.008 0 0 0 19.938 13zM4.062 11h3.965A17.9 17.9 0 0 1 9.71 4.333 8.008 8.008 0 0 0 4.062 11zm5.969 0h3.938A15.905 15.905 0 0 0 12 4.248 15.905 15.905 0 0 0 10.03 11zm4.259-6.667A17.9 17.9 0 0 1 15.938 11h3.965a8.008 8.008 0 0 0-5.648-6.667z"/>
+            </svg>
+          </div>
+          <h3>Digital Design</h3>
+          <p>Designing engaging digital experiences that captivate users and drive results across platforms.</p>
+          <ul>
+            <li>UI/UX Design</li>
+            <li>Social Media Graphics</li>
+            <li>Email Templates</li>
+            <li>Web Banners</li>
+          </ul>
+        </div>
+        <div class="service-card">
+          <div class="service-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+              <path fill="none" d="M0 0h24v24H0z"/>
+              <path d="M5 5v14h14V5H5zM4 3h16a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm7.707 10.293L9.414 11l2.293-2.293 1.414 1.414L11.828 11l1.293 1.293-1.414 1.414zm2.586 0l1.414-1.414L16.828 11l-1.121-1.121 1.414-1.414L19.414 11l-3.707 3.707-1.414-1.414z"/>
+            </svg>
+          </div>
+          <h3>Illustration</h3>
+          <p>Creating custom illustrations that tell your story and bring concepts to life in a unique way.</p>
+          <ul>
+            <li>Editorial Illustrations</li>
+            <li>Character Design</li>
+            <li>Concept Art</li>
+            <li>Custom Icons</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="section-header">
+        <span class="subtitle">Get In Touch</span>
+        <h2>Let's Work Together</h2>
+      </div>
+      <div class="contact-container">
+        <div class="contact-info">
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M9.366 10.682a10.556 10.556 0 0 0 3.952 3.952l.884-1.238a1 1 0 0 1 1.294-.296 11.422 11.422 0 0 0 4.583 1.364 1 1 0 0 1 .921.997v4.462a1 1 0 0 1-.898.995c-.53.055-1.064.082-1.602.082C9.94 21 3 14.06 3 5.5c0-.538.027-1.072.082-1.602A1 1 0 0 1 4.077 3h4.462a1 1 0 0 1 .997.921A11.422 11.422 0 0 0 10.9 8.504a1 1 0 0 1-.296 1.294l-1.238.884zm-2.522-.657l1.9-1.357A13.41 13.41 0 0 1 7.647 5H5.01c-.006.166-.009.333-.009.5C5 12.956 11.044 19 18.5 19c.167 0 .334-.003.5-.01v-2.637a13.41 13.41 0 0 1-3.668-1.097l-1.357 1.9a12.442 12.442 0 0 1-1.588-.75l-.058-.033a12.556 12.556 0 0 1-4.702-4.702l-.033-.058a12.442 12.442 0 0 1-.75-1.588z"/>
+              </svg>
+            </div>
+            <h4>Phone</h4>
+            <p>+1 (555) 123-4567</p>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M3 3h18a1 1 0 0 1 1 1v16a1 1 0 0 1-1 1H3a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1zm17 4.238l-7.928 7.1L4 7.216V19h16V7.238zM4.511 5l7.55 6.662L19.502 5H4.511z"/>
+              </svg>
+            </div>
+            <h4>Email</h4>
+            <p>hello@designfolio.com</p>
+          </div>
+          <div class="info-item">
+            <div class="info-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M12 20.9l4.95-4.95a7 7 0 1 0-9.9 0L12 20.9zm0 2.828l-6.364-6.364a9 9 0 1 1 12.728 0L12 23.728zM12 13a2 2 0 1 0 0-4 2 2 0 0 0 0 4zm0 2a4 4 0 1 1 0-8 4 4 0 0 1 0 8z"/>
+              </svg>
+            </div>
+            <h4>Location</h4>
+            <p>San Francisco, CA</p>
+          </div>
+          <div class="social-links">
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M12 2C6.477 2 2 6.477 2 12c0 4.991 3.657 9.128 8.438 9.879V14.89h-2.54V12h2.54V9.797c0-2.506 1.492-3.89 3.777-3.89 1.094 0 2.238.195 2.238.195v2.46h-1.26c-1.243 0-1.63.771-1.63 1.562V12h2.773l-.443 2.89h-2.33v6.989C18.343 21.129 22 16.99 22 12c0-5.523-4.477-10-10-10z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M12 2c2.717 0 3.056.01 4.122.06 1.065.05 1.79.217 2.428.465.66.254 1.216.598 1.772 1.153a4.908 4.908 0 0 1 1.153 1.772c.247.637.415 1.363.465 2.428.047 1.066.06 1.405.06 4.122 0 2.717-.01 3.056-.06 4.122-.05 1.065-.218 1.79-.465 2.428a4.883 4.883 0 0 1-1.153 1.772 4.915 4.915 0 0 1-1.772 1.153c-.637.247-1.363.415-2.428.465-1.066.047-1.405.06-4.122.06-2.717 0-3.056-.01-4.122-.06-1.065-.05-1.79-.218-2.428-.465a4.89 4.89 0 0 1-1.772-1.153 4.904 4.904 0 0 1-1.153-1.772c-.248-.637-.415-1.363-.465-2.428C2.013 15.056 2 14.717 2 12c0-2.717.01-3.056.06-4.122.05-1.066.217-1.79.465-2.428a4.88 4.88 0 0 1 1.153-1.772A4.897 4.897 0 0 1 5.45 2.525c.638-.248 1.362-.415 2.428-.465C8.944 2.013 9.283 2 12 2zm0 1.802c-2.67 0-2.987.01-4.04.059-.977.045-1.504.207-1.857.344-.467.182-.8.398-1.15.748-.35.35-.566.683-.748 1.15-.137.353-.3.88-.344 1.857-.048 1.053-.059 1.37-.059 4.04 0 2.67.01 2.987.059 4.04.045.977.207 1.504.344 1.857.182.466.399.8.748 1.15.35.35.683.566 1.15.748.353.137.88.3 1.857.344 1.054.048 1.37.059 4.04.059 2.67 0 2.987-.01 4.04-.059.977-.045 1.504-.207 1.857-.344.467-.182.8-.398 1.15-.748.35-.35.566-.683.748-1.15.137-.353.3-.88.344-1.857.048-1.053.059-1.37.059-4.04 0-2.67-.01-2.987-.059-4.04-.045-.977-.207-1.504-.344-1.857a3.097 3.097 0 0 0-.748-1.15 3.098 3.098 0 0 0-1.15-.748c-.353-.137-.88-.3-1.857-.344-1.053-.048-1.37-.059-4.04-.059zm0 3.064A5.135 5.135 0 0 1 17.135 12 5.135 5.135 0 0 1 12 17.135 5.135 5.135 0 0 1 6.865 12 5.135 5.135 0 0 1 12 6.865zm0 1.802A3.333 3.333 0 0 0 8.667 12 3.333 3.333 0 0 0 12 15.333 3.333 3.333 0 0 0 15.333 12 3.333 3.333 0 0 0 12 8.667zM17.338 6.462a1.2 1.2 0 1 1 0 2.4 1.2 1.2 0 0 1 0-2.4z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M18.335 18.339H15.67v-4.177c0-.996-.02-2.278-1.39-2.278-1.389 0-1.601 1.084-1.601 2.205v4.25h-2.666V9.75h2.56v1.17h.035c.358-.674 1.228-1.387 2.528-1.387 2.7 0 3.2 1.778 3.2 4.091v4.715zM7.003 8.575a1.546 1.546 0 0 1-1.548-1.549 1.548 1.548 0 1 1 1.547 1.549zm1.336 9.764H5.666V9.75H8.34v8.589zM19.67 3H4.329C3.593 3 3 3.58 3 4.297v15.406C3 20.42 3.594 21 4.328 21h15.338C20.4 21 21 20.42 21 19.703V4.297C21 3.58 20.4 3 19.666 3h.003z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M12 2C6.475 2 2 6.475 2 12a9.994 9.994 0 0 0 6.838 9.488c.5.087.687-.213.687-.476 0-.237-.013-1.024-.013-1.862-2.512.463-3.162-.612-3.362-1.175-.113-.288-.6-1.175-1.025-1.413-.35-.187-.85-.65-.013-.662.788-.013 1.35.725 1.538 1.025.9 1.512 2.338 1.087 2.912.825.088-.65.35-1.087.638-1.337-2.225-.25-4.55-1.113-4.55-4.938 0-1.088.387-1.987 1.025-2.688-.1-.25-.45-1.275.1-2.65 0 0 .837-.262 2.75 1.026a9.28 9.28 0 0 1 2.5-.338c.85 0 1.7.112 2.5.337 1.912-1.3 2.75-1.024 2.75-1.024.55 1.375.2 2.4.1 2.65.637.7 1.025 1.587 1.025 2.687 0 3.838-2.337 4.688-4.562 4.938.362.312.675.912.675 1.85 0 1.337-.013 2.412-.013 2.75 0 .262.188.574.688.474A10.016 10.016 0 0 0 22 12c0-5.525-4.475-10-10-10z"/>
+              </svg>
+            </a>
+            <a href="#" class="social-link">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24">
+                <path fill="none" d="M0 0h24v24H0z"/>
+                <path d="M22.162 5.656a8.384 8.384 0 0 1-2.402.658A4.196 4.196 0 0 0 21.6 4c-.82.488-1.719.83-2.656 1.015a4.182 4.182 0 0 0-7.126 3.814 11.874 11.874 0 0 1-8.62-4.37 4.168 4.168 0 0 0-.566 2.103c0 1.45.738 2.731 1.86 3.481a4.168 4.168 0 0 1-1.894-.523v.052a4.185 4.185 0 0 0 3.355 4.101 4.21 4.21 0 0 1-1.89.072A4.185 4.185 0 0 0 7.97 16.65a8.394 8.394 0 0 1-6.191 1.732 11.83 11.83 0 0 0 6.41 1.88c7.693 0 11.9-6.373 11.9-11.9 0-.18-.005-.362-.013-.54a8.496 8.496 0 0 0 2.087-2.165z"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" placeholder="Your Name" required>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-group">
+              <input type="text" id="subject" name="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>&copy; <span id="year"></span> DESIGNFOLIO. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <div class="project-modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-body">
+        <!-- Content will be dynamically added here -->
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
