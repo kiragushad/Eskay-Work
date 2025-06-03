@@ -1,7 +1,7 @@
 
 /* Base Styles */
 :root {
-    --primary-color: #6c63ff;
+    --primary-color: #00a651;
     --primary-light: #8a84ff;
     --primary-dark: #5046e5;
     --secondary-color: #2c2c2c;
@@ -185,7 +185,7 @@
   
   .desktop-nav li a {
     position: relative;
-    font-weight: 500;
+    font-weight: bold;
     padding: 8px 0;
     transition: var(--transition);
   }
@@ -253,7 +253,7 @@
   
   .mobile-nav a {
     display: block;
-    font-weight: 500;
+    font-weight: bold;
     padding: 10px 15px;
     border-radius: var(--border-radius);
     transition: var(--transition);
