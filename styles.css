@@ -726,6 +726,7 @@
     justify-content: center;
     gap: 15px;
     margin-top: 40px;
+    color: var(--primary-color);
   }
   
   .social-link {
